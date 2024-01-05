@@ -1,25 +1,56 @@
+<!DOCTYPE html>
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./my-portfolio/style.css"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/style.css"/>
+        <title>Phuc Portfolio</title>
     </head>
 
     <body>
-        <h1> <strong> My Portfolio </strong></h1>
-        <header> 
-            <h1> Phuc Dinh </h1>
-            <h2> Email: ams.dinhphuc@gmail.com </h2>
-        </header>
+        <header class="main-header">
+            <section class="name-container">
+                <h1 class="my-name-heading"> <strong> Phuc Dinh </strong></h1>
+            </section>
+            <nav>
+                <ul class="navigation-links-list">
+                    <li class="nav-item"> 
+                        <a class="navigation-links" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="navigation-links" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="navigation-links" href="#contact-me">Contact Me</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="navigation-links" href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header> 
 
-        <section id="group-project-1">
-            <h2> Group Project 1 </h2>
-            <a href="https://lildano50.github.io/group-project-1/"> This is the link to the deployed application for my first group project!</a>
-            <h3> Description: </h3>
-            <p> For our first group project, we developed a website named What to Do that takes in the zip code entered and use Local Events Rapid API to search for local events </p>
-            <p> near that zip code! Then, the user can choose to save that event into a My To Do List whenever the user wants to keep track of which event to pay attention to. </p>
-            <p> Even if the user doesn't find any event generated interesting, the user has the option to reclick the "Tell me what to do" button to generate a new list of events </p>
-            <p> to choose! </p>
-            <img src="group-project-1 deployed application image.png"> </img>
-        </section>
+        <main class="assignments">
+            <section class="challenge-1">
+                <h2> Challenge 1: More Accessible Horiseon Website </h2>
+                <h3> Description: </h3>
+                <p> I refactored the starter code for the Horiseon website, so the Horiseon website has more accessibility! Notable features include 
+                    more structured semantic HTML and CSS structure and additional accessible text for every image!
+                </p>
+                <a href="https://fuvolution.github.io/more-accessible-Horiseon-website/"> This is the link to the deployed application</a>
+                <img src="./assets/group-project-1-deployed-application image.png" id="application-id-2" alt="Horiseon-website"></img>
+            </section>
+            <section class="group-project-1">
+                <h2> Group Project 1 </h2>
+                <a href="https://lildano50.github.io/group-project-1/"> This is the link to the deployed application for my first group project!</a>
+                <h3> Description: </h3>
+                <p> For our first group project, we developed a website named What to Do that takes in the zip code entered and use Local Events Rapid API to search for local events </p>
+                <p> near that zip code! Then, the user can choose to save that event into a My To Do List whenever the user wants to keep track of which event to pay attention to. </p>
+                <p> Even if the user doesn't find any event generated interesting, the user has the option to reclick the "Tell me what to do" button to generate a new list of events </p>
+                <p> to choose! </p>
+                <img src="./assets/group-project-1-deployed-application image.png" id="application-id-2" alt="Random Activity Finder Based on Zip Code Proximity"</img>
+            </section>
+        </main>
     </body>
 </html>

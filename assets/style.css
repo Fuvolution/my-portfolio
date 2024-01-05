@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.main-header {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+    background-color:black;
+    color:#ffffff;
+}
+
+.name-container {
+    display: inline;
+    width: 25%;
+    background-color:turquoise;
+}
+
+.my-name-heading {
+    display: inline;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 150px;
+}
+
+nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 20%; 
+}
+
+.navigation-links-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 25px;
+    color:#ffffff;
+}
+
+main .challenge-1,
+main .group-project-1{
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
