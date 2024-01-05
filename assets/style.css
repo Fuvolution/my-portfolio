@@ -26,8 +26,26 @@ body {
 .my-name-heading {
     display: inline;
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    font-size 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 150px;
+}
+
+nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 20%; 
+}
+
+.navigation-links-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 25px;
+    color:#ffffff;
 }
 
 main .challenge-1,
@@ -38,14 +56,13 @@ main .group-project-1{
 }
 
 p{
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 img{
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 50%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
