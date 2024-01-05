@@ -1,12 +1,8 @@
-# my-portfolio
-My Portfolio
+# My Portfolio
 
-Phuc Dinh
-Email: ams.dinhphuc@gmail.com
+# Alert
+This portfolio is currently working in progress! I will routinely add in more submitted challenges and projects as I finish working on them! 
 
-This portfolio is currently working in progress! 
-
-UT Austin Coding Boot Camp Group Project 1: 
-Link to Deployed Application: [My 1st group project website deployed!](https://lildano50.github.io/group-project-1/)
-
-Image: ![Group Project 1](https://github.com/Fuvolution/my-portfolio/assets/123862154/a1e0a607-a416-4c55-a725-baeed1081ab7)
+# Description
+This repository is my work-in-progress portfolio that may evolve into a wonderful portfolio I can proudly share with employers! For now, this portfolio is currently in progress
+as I work on more challenges and projects! 
