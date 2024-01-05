@@ -11,6 +11,6 @@ as I work on more challenges and projects!
 I worked alone for the Module 1 Challenge assignment, but I worked together in a group with 3 other people from the Coding Boot Program to develop the Group Project for the Project 1 assignment. 
 
 ## Links and Images
-Image of Deployed Application: ![Portfolio](https://github.com/Fuvolution/my-portfolio/blob/main/assets/images/accessible-horiseon-website.PNG)
+Image of Deployed Application: ![Portfolio](https://github.com/Fuvolution/my-portfolio/blob/main/assets/images/portfolio-image.PNG)
 
 Link to Deployed Application: [Portfolio Deployed](https://fuvolution.github.io/my-portfolio/)
